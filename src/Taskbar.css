@@ -1,0 +1,30 @@
+.taskbar-wrapper {
+    background-color: var(--dark-purple);
+    height: 600px;
+    padding: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow-y: auto;  
+}
+
+.taskbar-wrapper::-webkit-scrollbar-track {
+  background: inherit;
+}
+
+.taskbar-wrapper::-webkit-scrollbar-thumb {
+  background: var(--light-purple);
+  border-radius: 2px;
+}
+
+.taskbar-wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

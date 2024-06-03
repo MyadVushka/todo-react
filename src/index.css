@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --dark-purple: #201c44;
+  --light-purple: #845cf4;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  outline: none;
+  border: none;
+}
+
+.wrapper {
+  background-color: var(--light-purple);
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
